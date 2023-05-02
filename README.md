@@ -10,6 +10,8 @@
 
 Сборка:
 
+_Перед запуском нужно установить свои значения в docker/.env/environments_
+
 > docker-compose -f ./docker-compose.yaml --env-file ./.env/environments build
 
 Запуск:
